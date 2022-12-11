@@ -1,0 +1,9 @@
+{
+  "name": "PriceMonitor",
+  "version": "1.0.0",
+  "dependencies": {
+    "alchemy-sdk": "^2.2.3",
+    "web3": "^1.8.1",
+    "web3-eth": "^1.8.1"
+  }
+}
