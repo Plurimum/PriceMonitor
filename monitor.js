@@ -2,7 +2,6 @@ const URL = getSecretURL();
 const ADDRESSES = require("./addresses.json");
 const ABI = require("./ABI.json");
 const Web3 = require('web3');
-const events = require("events");
 const web3 = new Web3(URL);
 const HARDCODED_FROM_BLOCK = 16162500; // hardcoded because we can't know how many blocks ago was the last event received
 
